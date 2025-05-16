@@ -1,0 +1,135 @@
+body {
+    font-family: 'Cabin', sans-serif; 
+    color: #373a3c;
+    background-color: #fff;
+}
+
+h1 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold; 
+    color: #000;
+}
+
+.carousel-item img {
+    padding-top: 30px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%; 
+    border: 2px solid #373A3C; 
+    background-color: transparent; 
+    opacity: 1; 
+}
+.carousel-indicators .active {
+    background-color: #373A3C; 
+}
+.carousel-indicators {
+    bottom: -60px; 
+}
+
+
+.cabin-regular {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400; 
+}
+
+
+.img-principal {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding-top: 88px;
+}
+#carouselExample {
+    width: 100%; 
+    max-width: 2500px; 
+  }
+  .carousel-item img {
+    max-width: 300px; 
+  }
+  
+@media (max-width: 768px) {
+    .row-cols-1.row-cols-lg-3 {
+        gap: 20px; 
+    }
+}
+
+#jobs h1 {
+    margin-top: 10px; 
+    margin-bottom: 40px; 
+}
+
+.card {
+    max-width: 80%; 
+    margin: 0 auto; 
+}
+
+@media (max-width: 768px) {
+    .card {
+    max-width: 80%; 
+    }
+
+.card-img-top {
+    max-height: 250px; 
+    object-fit: cover; 
+}
+}
+.btn-transparente {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+#suscri {
+    background-color: #DC3545; 
+    padding: 50px 20px; 
+    text-align: center;
+}
+
+#suscri h1 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 2.5rem; 
+    color: #ffffff; 
+    margin-bottom: 10px; 
+}
+
+#suscri h5 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.25rem; 
+    color: #ffffff; 
+    margin-bottom: 20px; 
+}
+
+/* Estilo para el botón */
+.btn-transparente {
+    background-color: transparent;
+    border: 1px solid #ffffff; 
+    color: #ffffff; 
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border-radius: 5px; 
+}
+
+.btn-transparente:hover {
+    background-color: #ffd900;
+    color: white;
+    border-color: #ffffff; 
+}
+
+#ricomida{
+    font-family: 'lobster', ;
+    font-weight: 400; 
+}
+
+#contact{
+    background-color: #373A3C;
+    text-align: center;
+    padding: 20px 20px;
+}
+#rico{
+    color: #ffffff;
+    font-family: 'lobster', ;
+}
