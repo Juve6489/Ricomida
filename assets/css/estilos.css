@@ -83,10 +83,7 @@ h1 {
     padding: 10px 20px;
 }
 
-#suscri {
-    background-color: #DC3545; 
-    padding: 50px 20px; 
-    text-align: center;
+
 }
 
 #suscri h1 {
@@ -106,15 +103,15 @@ h1 {
 /* Estilo para el botón */
 .btn-transparente {
     background-color: transparent;
-    border: 1px solid #ffffff; 
+    border: 5px solid #070707; 
     color: #ffffff; 
     font-size: 1.2rem;
     padding: 10px 30px;
-    border-radius: 5px; 
+    border-radius: 10px; 
 }
 
-.btn-transparente:hover {
-    background-color: #ffd900;
+.btn btn-transparente:hover {
+    background-color: #c8ff00;
     color: white;
     border-color: #ffffff; 
 }
